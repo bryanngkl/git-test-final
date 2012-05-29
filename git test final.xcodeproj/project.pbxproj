@@ -26,6 +26,7 @@
 		936AF21015750B3B0000AB6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936AF1E315750B3B0000AB6D /* Foundation.framework */; };
 		936AF21815750B3C0000AB6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 936AF21615750B3C0000AB6D /* InfoPlist.strings */; };
 		936AF21B15750B3C0000AB6D /* git_test_finalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936AF21A15750B3C0000AB6D /* git_test_finalTests.m */; };
+		9FF9307115750F5E004CA937 /* newfiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9307015750F5E004CA937 /* newfiles.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,28 +44,30 @@
 		936AF1E115750B3B0000AB6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		936AF1E315750B3B0000AB6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		936AF1E515750B3B0000AB6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		936AF1E915750B3B0000AB6D /* git test final-Info.plist */ = {isa = PBXFileReference; path = "git test final-Info.plist"; sourceTree = "<group>"; };
+		936AF1E915750B3B0000AB6D /* git test final-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "git test final-Info.plist"; sourceTree = "<group>"; };
 		936AF1EB15750B3B0000AB6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		936AF1ED15750B3B0000AB6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		936AF1EF15750B3B0000AB6D /* git test final-Prefix.pch */ = {isa = PBXFileReference; path = "git test final-Prefix.pch"; sourceTree = "<group>"; };
-		936AF1F015750B3B0000AB6D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		936AF1EF15750B3B0000AB6D /* git test final-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "git test final-Prefix.pch"; sourceTree = "<group>"; };
+		936AF1F015750B3B0000AB6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		936AF1F115750B3B0000AB6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		936AF1F415750B3B0000AB6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		936AF1F715750B3B0000AB6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		936AF1F915750B3B0000AB6D /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		936AF1F915750B3B0000AB6D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		936AF1FA15750B3B0000AB6D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		936AF1FC15750B3B0000AB6D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		936AF1FE15750B3B0000AB6D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		936AF20015750B3B0000AB6D /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		936AF20015750B3B0000AB6D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		936AF20115750B3B0000AB6D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		936AF20315750B3B0000AB6D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		936AF20515750B3B0000AB6D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		936AF20C15750B3B0000AB6D /* git test finalTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "git test finalTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		936AF20D15750B3B0000AB6D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		936AF21515750B3C0000AB6D /* git test finalTests-Info.plist */ = {isa = PBXFileReference; path = "git test finalTests-Info.plist"; sourceTree = "<group>"; };
+		936AF21515750B3C0000AB6D /* git test finalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "git test finalTests-Info.plist"; sourceTree = "<group>"; };
 		936AF21715750B3C0000AB6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		936AF21915750B3C0000AB6D /* git_test_finalTests.h */ = {isa = PBXFileReference; path = git_test_finalTests.h; sourceTree = "<group>"; };
+		936AF21915750B3C0000AB6D /* git_test_finalTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = git_test_finalTests.h; sourceTree = "<group>"; };
 		936AF21A15750B3C0000AB6D /* git_test_finalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git_test_finalTests.m; sourceTree = "<group>"; };
+		9FF9306F15750F5E004CA937 /* newfiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newfiles.h; sourceTree = "<group>"; };
+		9FF9307015750F5E004CA937 /* newfiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newfiles.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				936AF20315750B3B0000AB6D /* second.png */,
 				936AF20515750B3B0000AB6D /* second@2x.png */,
 				936AF1E815750B3B0000AB6D /* Supporting Files */,
+				9FF9306F15750F5E004CA937 /* newfiles.h */,
+				9FF9307015750F5E004CA937 /* newfiles.m */,
 			);
 			path = "git test final";
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 				936AF1F215750B3B0000AB6D /* AppDelegate.m in Sources */,
 				936AF1FB15750B3B0000AB6D /* FirstViewController.m in Sources */,
 				936AF20215750B3B0000AB6D /* SecondViewController.m in Sources */,
+				9FF9307115750F5E004CA937 /* newfiles.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +471,7 @@
 				936AF22015750B3C0000AB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		936AF22115750B3C0000AB6D /* Build configuration list for PBXNativeTarget "git test finalTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				936AF22315750B3C0000AB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
